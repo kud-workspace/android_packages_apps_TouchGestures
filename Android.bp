@@ -8,9 +8,6 @@ android_app {
     system_ext_specific: true,
     platform_apis: true,
     certificate: "platform",
-    dex_preopt: {
-        enabled: false,
-    },
     optimize: {
         enabled: false,
     },
